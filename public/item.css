@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  .bread{
+    margin-top: 100px;
+  }
+  .fontroboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .fontoswald {
+    font-family: "Oswald", sans-serif;
+  }
+
+  .sanpham {
+    height: 88px;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 100;
+    background-color: #fff;
+    /* border-bottom: 1px solid #777; */
+  }
+  .nav-item {
+    list-style: none;
+  }
+  a.navbar-brand {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(254, 186, 39);
+    border: 2px solid rgb(254, 186, 39);
+    border-radius: 999px;
+    padding: 5px 5px;
+    transition: 0.4s;
+  }
+  a.navbar-brand:hover {
+    color: #f44336;
+    border: 2px solid #f44336;
+    transition: 0.4s;
+  }
+  a.nav-link {
+    color: #777;
+    font-size: 14px;
+    margin-top: -5px;
+    padding: 0 15px;
+    border: 1px solid #777;
+    border-radius: 999px;
+    transition: 0.4s;
+  }
+  a.nav-link:hover {
+    color: #f44336;
+    border: 1px solid #f44336;
+    transition: 0.4s;
+    font-size: 18px;
+    background: #fff;
+  }
+
+  input[type="text"] {
+    /* background:  url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center; */
+    width: 110px;
+    box-sizing: border-box;
+    border: 1px solid #777;
+    border-radius: 999px;
+    outline:none;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 1px;
+    /* margin-left: 20px; */
+    padding: 6px 7px 7px 30px;
+    transition: 0.4s;
+    
+  }
+  
+  input[type="text"]:focus{
+    width:300px; 
+    border-color:#66CC75;
+    transition: 0.4s;
+    /* margin-left: 5px; */
+  }
+  
+  .rowsearch{
+    position: relative;
+  }
+  .iconsearch{
+    position: absolute;
+    z-index: 1;
+    /* left: 2px; */
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    color: #777;
+  }
+/* het logo  */
+
+.breadcrumb{
+    background-color: #fff;
+    /* background-color: white; */
+}
+.breadcrumb a:hover{
+    text-decoration: none;
+}
+
+/* het  breadcrumb  */
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 226, 226);
+}
+.background .noidung{
+    margin-bottom: 20px;
+}
+.background .noidung .container {
+    border: 1px solid rgba(80, 79, 79, 0.185);
+    background-color: #fff;
+}
+.background .noidung .container .row{
+    margin: 0 0 0 15px;
+}
+
+.background .noidung .container .row .col-sm-8 .box1{
+    padding: 25px 10px 20px 0px;
+}
+.background .noidung .container .row .col-sm-8 .box1 .heading h1{
+    font-size: 32px;
+}
+.background .noidung .container .row .col-sm-8 .box1 .heading p{
+    color: #66CC75;
+    /* display: inline; */
+}
+.ulnoidung{
+    margin-left: 20px;
+}
+.bodynoidung hr{
+    color: black;
+    border-style: dashed;
+}
+.background .noidung .container .row .col-sm-4 .box2{
+    padding: 25px 0px 20px 0px;
+    margin-left: 10px;
+}
+.background .noidung .container .row .col-sm-4 .box2 img{
+    margin-bottom: 100px;
+}
+.background .noidung .container .row .col-sm-4 .box2 img.abc{
+    margin-bottom: 0;
+}
+/* het noi dung  */
+
+.footer{
+    color: #eee;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding-top: 5px;
+    border-top: 5px solid #f44336;
+  }
+.footer .container .row .col-sm-4 .footer__list .footer__item a{
+    color: #eee;
+}
+.footer .container .row .col-sm-4 .footer__list .footer__item a:hover{
+    text-decoration: none;
+    color: #f44336;
+}
+.footer__item{
+    list-style: none;
+}
+ /* het footer    */

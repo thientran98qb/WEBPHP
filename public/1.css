@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.fontroboto {
+  font-family: "Roboto", sans-serif;
+}
+.fontoswald {
+  font-family: "Oswald", sans-serif;
+}
+.logoandmenu {
+  height: 88px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: #fff;
+}
+li {
+  list-style: none;
+}
+.img-sp{
+  width: 350px;
+  height: 280px;
+}
+a.navbar-brand {
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(254, 186, 39);
+  border: 2px solid rgb(254, 186, 39);
+  border-radius: 999px;
+  padding: 5px 5px;
+  transition: 0.4s;
+}
+a.navbar-brand:hover {
+  color: #f44336;
+  border: 2px solid #f44336;
+  transition: 0.4s;
+}
+ ul.navbar-nav li{
+  position: relative;
+ }
+ ul.wp-menu li{
+    display: none;
+    position: absolute;
+ }
+ ul.navbar-nav li.nav-item a:hover .wp-menu li {
+    display: block;
+ }
+
+a.nav-link {
+  color: #777;
+  font-size: 14px;
+  margin-top: -5px;
+  padding: 0 15px;
+  border: 1px solid #777;
+  border-radius: 999px;
+  transition: 0.4s;
+}
+a.nav-link:hover {
+  color: #f44336;
+  border: 1px solid #f44336;
+  transition: 0.4s;
+  font-size: 18px;
+  background: #fff;
+}
+
+input[type="text"] {
+  /* background:  url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center; */
+  width: 110px;
+  box-sizing: border-box;
+  border: 1px solid #777;
+  border-radius: 999px;
+  outline:none;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-left: 1px;
+  /* margin-left: 20px; */
+  padding: 6px 7px 7px 30px;
+  transition: 0.4s;
+  
+}
+
+input[type="text"]:focus{
+  width:300px; 
+  border-color:#66CC75;
+  transition: 0.4s;
+  /* margin-left: 5px; */
+}
+
+.rowsearch{
+  position: relative;
+}
+.iconsearch{
+  position: absolute;
+  z-index: 1;
+  /* left: 2px; */
+  margin: 5px;
+  margin-left: 10px;
+  margin-bottom: 6px;
+  color: #777;
+}
+/* .doimau{
+  color: coral;
+} */
+/* het logo va menu  */
+
+.textslide .spanslide {
+  position: absolute;
+  color: rgb(189, 189, 189);
+  left: 25%;
+  top: 50%;
+  font-size: 80px;
+  text-align: center;
+  border: 0.5px solid #777;
+  transition: 0.4s;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
+.textslide:hover .spanslide {
+  border: 5px solid #fff;
+  color: #fff;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+/* het slide  */
+#neo{
+  width: 100%;
+  opacity: 0;
+  /* display: inline; */
+}
+.danhmuc {
+  margin-top: 65px;
+  /* padding-top: 300px; */
+}
+
+.danhmuc .container {
+  display: flex;
+  text-align: center;
+}
+.danhmuc .container a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #777;
+  transition: 0.4s;
+  font-family: "Roboto", sans-serif;
+}
+.danhmuc .container .col-sm-3 .dm:hover a {
+  color: #f44336;
+  transition: 0.4s;
+}
+
+.danhmuc .container .col-sm-3 .dm {
+  position: relative;
+  top: 16px;
+}
+.danhmuc .container .col-sm-3 .dm .gachchan {
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #f44336;
+  transition: 0.8s;
+  padding-top: 5px;
+}
+.danhmuc .container .col-sm-3 .dm:hover .gachchan {
+  width: 100%;
+  height: 2px;
+  transition: 0.8s;
+}
+hr {
+  
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 1px;
+}
+
+.doimau{
+  color: #f44336;
+  background-color: rgba(142, 238, 238, 0.623);
+  border-radius: 999px;
+  transition: 0.8s;
+}
+.mauchuan{
+  color: #777;
+}
+.gachchan{
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f44336;
+  transition: 0.8s;
+  padding-top: 5px;
+}
+
+/* het danh muc  */
+
+
+.row {
+  margin-top: 30px;
+}
+.thucdon1 .container .row .col-sm-4{
+  position: relative;
+  margin-bottom: 20px;
+}
+.thucdon1 .container .row .col-sm-4 .monan{
+  position: relative;
+}
+
+.thucdon1 .container .row .col-sm-4 .gray{
+  position: absolute;
+  width: 250px; 
+  height: 70px;
+  margin: auto;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  top: 100px;
+  left: 68px;
+  /* top: 50%;
+  left: 50%; */
+  background-color: #F0EEF0;
+  /* border-radius: 2px; */
+  opacity: 0.8;
+  transition: 0.6s;
+}
+.thucdon1 .container .row .col-sm-4:hover .gray{
+  /* position: absolute; */
+  width: 350px;
+  height: 280px;
+  top: 0;
+  left: 15px;
+  background-color:#F0EEF0;
+  transition: 0.6s;
+  box-sizing: border-box;
+  opacity: 0.8;
+}
+
+
+.thucdon1 .container .row .col-sm-4 .text{
+  text-align: center;
+  position: absolute;
+}
+.thucdon1 .container .row .col-sm-4 .text .bigtext{
+  position: absolute;
+  top: -163px;
+  left: 27px;
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  color: #f51f10;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.thucdon1 .container .row .col-sm-4:hover .text .bigtext{
+  opacity: 0;
+}
+.thucdon1 .container .row .col-sm-4 .text .smalltext{
+  position: absolute;
+  font-size: 30px;
+  color: #f51f10;
+  top: -164px;
+  left: 106px;
+  opacity: 0;
+}
+.thucdon1 .container .row .col-sm-4:hover .text .smalltext{
+  opacity: 1;
+}
+/* het thuc don 1 */
+
+.row4{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.pagination {
+  width: 400px;
+  margin-left: 50px;
+}
+.pagination a {
+  display: block;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+ 
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+/* het pagination  */
+
+
+input[type=textcomment], textarea {
+  width: 100%; /* Full width */
+  color: white;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#lname{
+  background-color: rgba(119, 119, 119, 0);
+}
+#fname{
+  background-color: rgba(119, 119, 119, 0);
+}
+#subject{
+  background-color: rgba(119, 119, 119, 0);
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  /* background-color: #4CAF50; */
+  background-color: #f44336;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 100px;
+
+  /* padding-bottom: 5px; */
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+  transition: 0.4s;
+  
+}
+
+/* Add a background color and some padding around the form */
+/* .container {
+  border-radius: 5px;
+  background-color: #fcb4b4;
+  padding: 20px;
+} */
+.comment .container .yourcmt{
+  position: relative;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  top: 120px;
+  font-size: 50px;
+  bottom: 20px;
+}
+.comment{
+  /* display: inline-block; */
+  margin-top: 50px;
+  color: #eee;
+  background-image: url(img/comment.jpg) ;
+
+}
+.comment .container .row .col-sm-6{ 
+  margin-top: 150px;
+  /* opacity: 0.1; */
+  /* position:absolute; */
+}
+
+/* het comment  */
+
+.footer{
+  color: #eee;
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  padding-top: 5px;
+  border-top: 5px solid #f44336;
+}
+.footer .container .row .col-sm-4 .footer__list .footer__item a{
+  color: #eee;
+}
+.footer .container .row .col-sm-4 .footer__list .footer__item a:hover{
+  text-decoration: none;
+  color: #f44336;
+}
+ /* het footer    */
+ 
